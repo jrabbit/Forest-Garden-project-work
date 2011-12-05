@@ -28,7 +28,7 @@
     wiki: 'http://en.wikipedia.org/wiki/Lemon_Balm',
     notes: "Also in the mint family, the leaves of this plant can be used to flavor tea, candy and ice cream. It also can be used to repel mosquitos and in aromatherapy. Lemon balm should be avoided by anyone taking thyroid medication (thyroxine, for example), because it is thought to inhibit the absorption of the medication. This plant has been studied for its stress-reduction, antiviral and antibacterial properties. This species contains eugenol, which kills bacteria and has been known to calm muscles and numb tissues as well as terpenes that add to its soothing effects. (Wikipedia)"
     }
-  var tmpl = "<img class='plantimg' src='img/{{sciname}}.jpeg'/> <h1> {{sciname}}</h1> <p>{{notes}}</p> <a href='{{wiki}}'> Wiki</a>"
+  var tmpl = "<img class='plantimg' src='img/{{sciname}}.jpeg'/> <h1> {{sciname}}</h1> <p>{{notes}}</p> <a href='{{wiki}}'> Wiki</a> <br /> <a href='http://www.gardenology.org/wiki/{{sciname}}'>Gardenology</a>"
   $(document).ready(
     function(){
       $('.nedsnotes').html(Mustache.to_html(tmpl, testdata))
