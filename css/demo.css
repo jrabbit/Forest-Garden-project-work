@@ -30,15 +30,15 @@
 /*
  * jQuery UI specific styling
  */
-th{
-	font-family: arial;
-	font-size: 25px;	
+/*th{
+    font-family: arial;
+    font-size: 25px;    
 }
 
 td{
-	font-family: arial;
-	font-size: 15px;
-}
+    font-family: arial;
+    font-size: 15px;
+}*/
 .paging_two_button .ui-button {
 	float: left;
 	cursor: pointer;
