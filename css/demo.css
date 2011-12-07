@@ -53,13 +53,36 @@ a:hover {
     color: #5d85f9;
     text-decoration: none;
 }
-img{
+.plantimg{
     height: 400px;
     width: 250px;
     border-radius: 10px;
     border-style: inset;
     border: 10px;
     float: left;
+}
+#table{
+    width: 80%;
+    float:left;
+}
+#ned:hover img;{
+    float: right;
+    height: 356px;
+    width: 488px;
+}
+#ned{
+    float:right;
+    width: 20%;
+}
+#ned p{
+    color: black;
+    font-weight: bold;
+}
+#ned img{
+    float:right;
+    height: 178px;
+    width: 244px;
+    padding: 5px;
 }
 h3{
     font-style: italic;

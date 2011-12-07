@@ -11,7 +11,7 @@ $(document).ready(function(){
    var tmpl = "<div class='modal-header'><a href='#' class='close'>&times;</a><h3 class='science'>{{sciname}}</h3></div>" + 
    "<div class='modal-body'><img class='plantimg' src='img/{{sciname}}.jpeg'/><p>{{notes}}</p></div>" +
    " <a href='{{wiki}}'> Wiki</a> &bull; <a href='http://www.gardenology.org/wiki/{{sciname}}'>Gardenology</a>  &bull; <a href='http://pfaf.org/user/Plant.aspx?LatinName={{sciname}}'>Plants For a Future</a>"+
-   "<div class='modal-footer'> <a class='btn primary closer'>Close</a><a href='#' class='btn secondary'>Secondary</a></div>"
+   "<div class='modal-footer'> <a class='btn primary closer'>Close</a></div>"
        var x = Mustache.to_html(tmpl, data)
        $('#popup').html(x)
        $('#popup').modal({backdrop: true, show:true});
